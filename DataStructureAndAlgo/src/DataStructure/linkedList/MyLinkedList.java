@@ -128,12 +128,39 @@ public class MyLinkedList {
 		return list;
 	}
 	
+	public static int getNodeByPosition(MyLinkedList list, int position) {
+		Node head = list.head;
+		int count=0;
+		
+		while(head!=null) {
+			if(count == position-1) {
+				return head.data;
+			}
+			
+			head= head.next;
+			count++;
+		}
+		
+		return 0;
+	}
+	
 	public static void print(MyLinkedList list) {
 		Node head = list.head;
 		while (head != null) {
 			System.out.println(head.data);
 			head = head.next;
 		}
+	}
+	
+	public static int size(MyLinkedList list) {
+		Node head = list.head;
+		int count=0;
+		while(head!=null) {
+			head= head.next;
+			count++;
+		}
+		
+		return count;
 	}
 
 	public static void main(String[] args) {
@@ -159,6 +186,7 @@ public class MyLinkedList {
 		list = removeByPosition(list, 3);
 		list = removeByKey(list, 35);
 		print(list);
+		System.out.println("==size=="+size(list));
 
 	}
 
