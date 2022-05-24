@@ -162,6 +162,22 @@ public class MyLinkedList {
 		
 		return count;
 	}
+	
+	public static MyLinkedList reverse(MyLinkedList list) {
+		Node current= list.head;
+		Node next = null;
+		Node previous = null;
+		while(current!=null) {
+			next = current.next;
+			current.next = previous;
+			previous = current;
+			current= next;
+		}
+		
+		list.head =previous;
+		return list;
+	}
+	
 
 	public static void main(String[] args) {
 
@@ -186,7 +202,10 @@ public class MyLinkedList {
 		list = removeByPosition(list, 3);
 		list = removeByKey(list, 35);
 		print(list);
-		System.out.println("==size=="+size(list));
+		
+		System.out.println("==reverse list===");
+		list = reverse(list);
+		print(list);
 
 	}
 
