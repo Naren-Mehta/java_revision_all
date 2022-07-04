@@ -162,6 +162,22 @@ public class MyLinkedList {
 
 		return count;
 	}
+	
+	public static MyLinkedList reverse(MyLinkedList list) {
+		Node current= list.head;
+		Node next = null;
+		Node previous = null;
+		while(current!=null) {
+			next = current.next;
+			current.next = previous;
+			previous = current;
+			current= next;
+		}
+		
+		list.head =previous;
+		return list;
+	}
+	
 
 	public static void reveseViaStack(MyLinkedList list) {
 		Node head = list.head;
@@ -213,6 +229,9 @@ public class MyLinkedList {
 
 		reveseViaStack(list);
 
+		print(list);
+		System.out.println("==reverse list===");
+		list = reverse(list);
 		print(list);
 
 	}
