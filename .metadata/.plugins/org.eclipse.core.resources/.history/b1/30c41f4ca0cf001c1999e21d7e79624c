@@ -1,0 +1,26 @@
+package lambda;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+
+public class SortAndArrayList {
+
+	public static void main(String[] args) {
+
+		ArrayList<String> al = new ArrayList<String>();
+		al.add("rahul");
+		al.add("bahadur");
+		al.add("naren");
+		al.add("mehta");
+		al.add("amit");
+
+		Comparator<String> c = (obj1, obj2)->{
+			
+		};
+		
+		Collections.sort(al);
+		System.out.println(al);
+	}
+
+}

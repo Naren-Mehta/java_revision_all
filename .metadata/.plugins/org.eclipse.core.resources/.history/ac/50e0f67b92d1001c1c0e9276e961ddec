@@ -1,0 +1,13 @@
+package functionalInterfaces.predicate;
+
+import java.util.function.Predicate;
+
+public class PredicateNewExample {
+
+	public static void main(String[] args) {
+
+		Predicate<String> p1 = s-> s.startsWith("k");
+		
+	}
+
+}

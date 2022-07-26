@@ -1,0 +1,14 @@
+package defaultMethods;
+
+interface Interf{
+	public abstract void m1();
+	public static final int x =10;
+}
+
+public class DefaultMethodExample {
+
+	public static void main(String[] args) {
+
+	}
+
+}

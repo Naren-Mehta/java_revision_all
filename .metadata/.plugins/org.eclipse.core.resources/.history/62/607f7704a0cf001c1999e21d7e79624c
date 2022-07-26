@@ -1,0 +1,18 @@
+package lambda;
+
+import java.util.ArrayList;
+
+public class SortAndArrayList {
+
+	public static void main(String[] args) {
+		
+		ArrayList<String> al = new ArrayList<String>();
+		al.add("rahul");
+		al.add("bahadur");
+		al.add("Naren";
+		al.add("mehta");
+		al.add("amit");
+
+	}
+
+}

@@ -1,0 +1,29 @@
+package DataStructure.stack;
+
+import java.util.Stack;
+
+public class BalancedParenthises {
+
+	public static boolean isValid(String s) {
+		Stack<Character> stack = new Stack<Character>();
+		for (char c : s.toCharArray()) {
+			if (c == '(' || c == '{' || c == '[') {
+				stack.push(c);
+			} else if (c == ')' || c == '}' || c == ']') {
+				if (stack.isEmpty()) {
+					return false;
+				}
+				char c1 = stack.pop();
+				if ((c1 != '(' && c == ')') || (c1 != '{' && c == '}') || (c1 != '[' && c == ']')) {
+					return false;
+				}
+			}
+		}
+		return true;
+	}
+
+	public static void main(String[] args) {
+		System.out.println(isValid("["));
+	}
+
+}

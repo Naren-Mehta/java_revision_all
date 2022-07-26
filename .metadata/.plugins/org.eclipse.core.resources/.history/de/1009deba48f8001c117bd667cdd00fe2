@@ -1,0 +1,13 @@
+package DataStructure.array.searching;
+
+public class LinearSearch {
+
+	public  static boolean search() {
+		
+	}
+	public static void main(String[] args) {
+
+		
+	}
+
+}

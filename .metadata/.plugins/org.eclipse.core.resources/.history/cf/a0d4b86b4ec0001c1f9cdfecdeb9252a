@@ -1,0 +1,18 @@
+package threads;
+
+class ThreadDemo extends Thread{
+	
+	@Override
+	public void run() {
+		for (int i = 0; i < 10; i++) {
+			System.out.println("Child thread  " + i + " " + Thread.currentThread().getName());
+		}
+	}
+}
+public class ThreadWIthPriority {
+
+	public static void main(String[] args) {
+		ThreadDemo t1 = new ThreadDemo();
+	}
+
+}

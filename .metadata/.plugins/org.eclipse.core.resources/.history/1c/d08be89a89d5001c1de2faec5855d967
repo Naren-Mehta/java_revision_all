@@ -1,0 +1,20 @@
+package functionalInterfaces.suppliers;
+
+import java.util.function.Supplier;
+
+public class GenerateRandomNumberOTP {
+
+	public static void main(String[] args) {
+
+		
+		Supplier<Integer> value = ()->{
+			System.out.println();
+		};
+		
+		
+		
+		
+		
+	}
+
+}

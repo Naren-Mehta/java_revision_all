@@ -1,0 +1,17 @@
+package defaultMethods;
+
+interface InterfNew {
+	public static void m1() {
+		System.out.println("Interface static method");
+	}
+}
+public class StaticMethodInInterfaceExample implements InterfNew {
+
+	public static void main(String[] args) {
+		InterfNew.m1();
+		
+		StaticMethodInInterfaceExample obj = new StaticMethodInInterfaceExample();
+		obj.m1();
+	}
+
+}

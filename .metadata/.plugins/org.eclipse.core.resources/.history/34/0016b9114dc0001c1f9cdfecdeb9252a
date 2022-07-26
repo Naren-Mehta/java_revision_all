@@ -1,0 +1,20 @@
+package threads;
+
+
+class MyRunnable implements Runnable{
+
+	@Override
+	public void run() {
+		
+	}
+	
+}
+
+public class ThreacViaRunnableInterface {
+
+	public static void main(String[] args) {
+		MyRunnable r1 = new MyRunnable();
+		Thread t1 = new Thread(r1);
+	}
+
+}

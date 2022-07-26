@@ -1,0 +1,14 @@
+package functionalInterfaces.predicate;
+
+import java.util.function.Predicate;
+
+public class RemoveNullAndEmptyStringFromArr {
+
+	public static void main(String[] args) {
+
+		String[] arr = {"Naren", " ", null, "Ravi", " ", "Sachin", null};
+		
+		Predicate<String> p = s -> s != null && !s.isEmpty();
+	}
+
+}

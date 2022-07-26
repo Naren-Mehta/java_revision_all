@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;revision.StringBbuilderRevision&apos; to &apos;StringBuilderRevision&apos;&#x0D;&#x0A;- Original project: &apos;ReviseJava&apos;&#x0D;&#x0A;- Original element: &apos;revision.StringBbuilderRevision&apos;&#x0D;&#x0A;- Renamed element: &apos;revision.StringBuilderRevision&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;StringBbuilderRevision&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;revision{StringBbuilderRevision.java[StringBbuilderRevision" matchStrategy="1" name="StringBuilderRevision" qualified="false" references="true" similarDeclarations="false" stamp="1649654039511" textual="false" version="1.0"/>
+</session>

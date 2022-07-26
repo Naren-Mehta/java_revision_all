@@ -1,0 +1,22 @@
+package functionalInterfaces.predicate;
+
+import java.util.function.Predicate;
+
+//Predicate returns boolean value after checking some condition
+//Its in java.util.Function package
+// It contains only one method test()
+public class PredicateExample {
+
+	public static void main(String[] args) {
+
+		
+		Predicate<Integer> p = x -> x>10;
+		System.out.println(p.test(20));
+		System.out.println(p.test(5));
+
+		Predicate<String> p1 = s -> s.length() > 5;
+		System.out.println(p1.test("testing"));
+		
+	}
+
+}

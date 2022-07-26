@@ -1,0 +1,24 @@
+package lambda;
+
+import java.util.Comparator;
+import java.util.TreeSet;
+
+public class ComparatorWIthLambda {
+
+	public static void main(String[] args) {
+
+		Comparator c = (o1, o2)->{
+			return;
+		};
+		TreeSet ts = new TreeSet();
+		
+		ts.add("test");
+		ts.add(new String("hello"));
+		ts.add("abc");
+		
+		
+		System.out.println(ts);
+		
+	}
+
+}

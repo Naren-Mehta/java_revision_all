@@ -1,0 +1,26 @@
+package lambda;
+
+@FunctionalInterface
+interface MyInterface {
+	public void m1();
+}
+
+@FunctionalInterface
+interface ChildInterface extends MyInterface{
+	public void m1();
+//	public void m2(); // This will throw an compile time error
+}
+
+interface ChildInterface2 extends MyInterface{
+	public void m1();
+	public void m2(); // This will throw an compile time error
+}
+
+public class FunctionalInterfaceExample {
+
+	public static void main(String[] args) {
+
+		
+	}
+
+}

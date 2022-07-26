@@ -1,0 +1,10 @@
+package DataStructure.array;
+
+public class ArrayPassByReference {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

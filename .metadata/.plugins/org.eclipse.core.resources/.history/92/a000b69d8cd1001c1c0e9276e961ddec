@@ -1,0 +1,13 @@
+package functionalInterfaces.predicate;
+
+import java.util.Comparator;
+
+public class PredicateExample {
+
+	public static void main(String[] args) {
+
+
+		
+	}
+
+}

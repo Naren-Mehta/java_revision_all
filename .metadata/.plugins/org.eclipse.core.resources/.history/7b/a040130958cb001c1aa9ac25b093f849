@@ -1,0 +1,13 @@
+package threads;
+
+class Thread1 extends Thread{
+	
+}
+
+public class PrintEvenOddViaThreads {
+
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,30 @@
+package lambda;
+
+import java.util.ArrayList;
+
+class Employee{
+	int id;
+	String name;
+	
+	public Employee(int id, String name) {
+		this.id = id;
+		this.name = name;
+	}
+	
+	public String toString() {
+		return id+ ":"+name;
+	}
+}
+
+public class SortAnObjectByItsProperty {
+
+	public static void main(String[] args) {
+
+		ArrayList<Employee> al = new ArrayList<Employee>();
+		al.add(new Employee(100, "saktiman"));
+		Employee e1 = new Employee(100, "saktiman");
+		System.out.println(e1);
+		
+	}
+
+}

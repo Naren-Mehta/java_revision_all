@@ -1,0 +1,27 @@
+package defaultMethods;
+
+interface interf1 {
+	default void m1() {
+		System.out.println("Interf1 m1 method");
+	}
+}
+
+interface interf2 {
+	default void m1() {
+		System.out.println("Interf2 m1 method");
+	}
+}
+
+public class AmbiguityIssueWithDefaultMethodExample implements interf1, interf2 {
+
+	@Override
+	public void m1() {
+		System.out.println("====my m1 method===");
+	}
+
+	public static void main(String[] args) {
+		AmbiguityIssueWithDefaultMethodExample obj = new AmbiguityIssueWithDefaultMethodExample();
+		obj.m1();
+	}
+
+}

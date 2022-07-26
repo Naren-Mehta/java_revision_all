@@ -1,0 +1,38 @@
+package threads;
+
+public class PrintEvenOddViaThreads {
+
+	public void printEvenNumbers() {
+
+	}
+
+	public void printOddNumbers() {
+
+	}
+
+	public static void main(String[] args) {
+
+		PrintEvenOddViaThreads mt = new PrintEvenOddViaThreads();
+
+		Thread t1 = new Thread(new Runnable() {
+
+			@Override
+			public void run() {
+				mt.printEvenNumbers();
+			}
+		});
+
+		Thread t2 = new Thread(new Runnable() {
+
+			@Override
+			public void run() {
+				mt.printOddNumbers();
+			}
+		});
+
+		t1.start();
+		t2.start();
+
+	}
+
+}

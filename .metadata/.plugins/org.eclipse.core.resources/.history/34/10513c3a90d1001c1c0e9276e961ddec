@@ -1,0 +1,13 @@
+package functionalInterfaces.predicate;
+
+import java.util.function.Predicate;
+
+public class PredicateJoiningMethodExamples {
+
+	public static void main(String[] args) {
+		int[] x = {0, 5, 10, 15, 20, 25, 30};
+		
+		Predicate<Integer> p1 = i -> i>10;
+	}
+
+}

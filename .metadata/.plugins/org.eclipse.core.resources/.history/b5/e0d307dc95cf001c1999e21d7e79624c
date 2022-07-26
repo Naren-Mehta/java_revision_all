@@ -1,0 +1,13 @@
+package lambda;
+
+import java.util.TreeSet;
+
+public class ComparatorWIthLambda {
+
+	public static void main(String[] args) {
+
+		TreeSet<String> = new TreeSet<E>()
+		
+	}
+
+}

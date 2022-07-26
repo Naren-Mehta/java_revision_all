@@ -1,0 +1,23 @@
+package defaultMethods;
+
+interface Interf{
+	public abstract void m1();
+	public static final int x =10;
+	
+	default void m2() {
+		System.out.println("m2 default method");
+	}
+}
+
+public class DefaultMethodExample implements Interf{
+
+	public static void main(String[] args) {
+
+	}
+
+	@Override
+	public void m1() {
+		System.out.println("my own implementation ");
+	}
+
+}

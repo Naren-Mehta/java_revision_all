@@ -1,0 +1,24 @@
+package math;
+
+public class DivideTwoIntegers {
+
+	public int divide(int dividend, int divisor) {
+		
+		if(dividend <0 && divisor < 0) {
+			
+		}
+		int count =0;
+		while(divisor < dividend) {
+			dividend  -= divisor;
+			count++;
+		}
+		
+		return count;
+	}
+
+	public static void main(String[] args) {
+		DivideTwoIntegers obj = new DivideTwoIntegers();
+		System.out.println(obj.divide(43, -8));
+	}
+
+}

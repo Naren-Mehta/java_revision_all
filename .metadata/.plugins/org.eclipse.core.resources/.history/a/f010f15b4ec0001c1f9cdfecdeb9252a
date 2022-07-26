@@ -1,0 +1,17 @@
+package threads;
+
+class ThreadDemo extends Thread{
+	
+	@Override
+	public void run() {
+		conso
+	}
+}
+public class ThreadWIthPriority {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

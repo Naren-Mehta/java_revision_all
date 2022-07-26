@@ -1,0 +1,15 @@
+package lambda;
+
+@FunctionalInterface
+interface Calculator {
+	public int sum(int x, int y);
+}
+
+public class SumOfTwoNumbers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,38 @@
+package threads;
+
+class VenueFixing extends Thread {
+	
+}
+
+class VenueFixing extends WedingCard {
+	
+}
+
+class MyThreadDemo extends Thread{
+	
+	@Override
+	public void run() {
+		for (int i = 0; i < 10; i++) {
+			System.out.println("Child thread  "+Thread.currentThread().getName());
+		}
+	}
+}
+
+public class JoinThreadExample {
+
+	public static void main(String[] args) {
+		MyThreadDemo t1 = new MyThreadDemo();
+		t1.start();
+		
+		try {
+			t1.join();
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		
+		for (int i = 0; i < 10; i++) {
+			System.out.println("Main thread  "+Thread.currentThread().getName());
+		}
+	}
+
+}

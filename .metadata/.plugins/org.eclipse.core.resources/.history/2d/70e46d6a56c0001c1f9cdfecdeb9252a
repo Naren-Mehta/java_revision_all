@@ -1,0 +1,12 @@
+package threads;
+
+public class JoinThreadExample2 {
+
+	public static void main(String[] args) {
+
+		// Main thread should execute first then child threads
+		
+		
+	}
+
+}

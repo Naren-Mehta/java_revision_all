@@ -1,0 +1,10 @@
+package functionalInterfaces.predicate;
+
+public class RemoveNullAndEmptyStringFromArr {
+
+	public static void main(String[] args) {
+
+		String[] arr = {"Naren", " ", null, "Ravi", " ", "Sachin", null}
+	}
+
+}

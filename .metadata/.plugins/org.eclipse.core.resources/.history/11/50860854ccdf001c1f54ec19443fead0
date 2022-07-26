@@ -1,0 +1,19 @@
+package math;
+
+public class DivideTwoIntegers {
+
+	public int divide(int dividend, int divisor) {
+		
+		while(divisor < dividend) {
+			dividend  -= divisor;
+		}
+		
+		return 0;
+	}
+
+	public static void main(String[] args) {
+		DivideTwoIntegers obj = new DivideTwoIntegers();
+		obj.divide(10, 3);
+	}
+
+}

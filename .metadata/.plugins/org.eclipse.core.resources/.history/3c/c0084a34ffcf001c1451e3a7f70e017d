@@ -1,0 +1,18 @@
+package lambda;
+
+import java.util.TreeMap;
+
+public class SortATreeMapDescendingOrder {
+
+	public static void main(String[] args) {
+
+		TreeMap<Integer, String> tm = new TreeMap<Integer, String>();
+		
+		tm.put(1, "naren");
+		tm.put(6,  "test");
+		tm.put(3, "nirvi");
+		tm.put(8, "bahadur")
+		
+	}
+
+}

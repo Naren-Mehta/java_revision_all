@@ -1,0 +1,10 @@
+package functionalInterfaces.predicate;
+
+public class PredicateJoiningMethodExamples {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

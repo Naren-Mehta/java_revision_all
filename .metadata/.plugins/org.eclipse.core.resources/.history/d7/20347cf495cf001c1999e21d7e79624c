@@ -1,0 +1,20 @@
+package lambda;
+
+import java.util.TreeSet;
+
+public class ComparatorWIthLambda {
+
+	public static void main(String[] args) {
+
+		TreeSet ts = new TreeSet();
+		
+		ts.add("test");
+		ts.add(new String("hello"));
+		ts.add("abc");
+		
+		
+		System.out.println(ts);
+		
+	}
+
+}

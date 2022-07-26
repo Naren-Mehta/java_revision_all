@@ -1,0 +1,22 @@
+package DataStructure.array.searching;
+
+public class BinarySearch {
+
+	// Binary search only works in sorted array
+	
+	
+	public static void search(int[] arr, int key, int start, int end) {
+		
+	}
+	public static int binary_search(int[] arr, int key) {
+		
+		search(arr, key, 0, arr.length-1);
+		
+		return -1;
+	}
+
+	public static void main(String[] args) {
+		binary_search(new int[] { 1, 2, 10, 11, 19, 29, 28 }, 19);
+	}
+
+}

@@ -1,0 +1,33 @@
+package listRevision;
+
+import java.util.Enumeration;
+import java.util.Stack;
+
+public class StackExample {
+
+	public static void main(String[] args) {
+		Stack<Integer> list = new Stack<Integer>();
+		list.push(5);
+		list.push(4);
+		list.push(6);
+		list.push(1);
+		list.push(3);
+		list.push(5);
+		System.out.println(list);
+		
+		int length = list.size();
+		
+		for(int i=0;i<length;i++) {
+			System.out.println(list.pop());
+		}
+		
+//		list.remove(0);
+//		System.out.println(list);
+//		
+//		Enumeration<Integer> e = list.elements();
+//		while(e.hasMoreElements()) {
+//			System.out.println(e.nextElement());
+//		}
+	}
+
+}

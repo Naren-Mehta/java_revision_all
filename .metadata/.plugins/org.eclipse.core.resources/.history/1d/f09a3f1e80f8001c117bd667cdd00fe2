@@ -1,0 +1,18 @@
+package DataStructure.array;
+
+public class ReverseAnArray {
+
+	public static void reverse(int[] arr) {
+		
+		int[] newArr= new int[arr.length];
+
+	}
+
+	public static void main(String[] args) {
+
+		int[] arr = { 1, 2, 3, 4, 5, 6 };
+
+		reverse(arr);
+	}
+
+}

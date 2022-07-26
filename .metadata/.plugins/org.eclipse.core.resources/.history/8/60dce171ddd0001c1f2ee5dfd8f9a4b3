@@ -1,0 +1,23 @@
+package defaultMethods;
+
+interface interf1{
+	default void m1() {
+		System.out.println("Interf1 m1 method");
+	}
+}
+
+interface interf2{
+	default void m1() {
+		System.out.println("Interf1 m1 method");
+	}
+}
+
+
+public class AmbiguityIssueWithDefaultMethodExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

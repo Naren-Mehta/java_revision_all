@@ -1,0 +1,25 @@
+package lambda;
+
+@FunctionalInterface
+interface MyInterface {
+	public void m1();
+}
+
+@FunctionalInterface
+interface ChildInterface extends MyInterface{
+	public void m1();
+	public void m2();
+}
+
+interface ChildInterface extends MyInterface{
+	public void m1();
+}
+
+public class FunctionalInterfaceExample {
+
+	public static void main(String[] args) {
+
+		
+	}
+
+}

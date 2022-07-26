@@ -1,0 +1,23 @@
+package functionalInterfaces.predicate;
+
+import java.util.function.Predicate;
+
+public class PredicateNewExample {
+
+	
+	public static void m1(Predicate<String> p, String[] strArr) {
+		for(int i =0;i< strArr.length;i++) {
+			if(p.test(strArr[i])) {
+				System.out.println(strArr[i]);
+			}
+		}
+	}
+	
+	public static void main(String[] args) {
+
+		String[] arr= {"Sunny", "Kajal", "Mallika", "Kartik", "Karima"};
+		Predicate<String> p1 = s-> s.startsWith("k");
+		
+	}
+
+}

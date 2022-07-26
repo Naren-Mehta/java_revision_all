@@ -1,0 +1,13 @@
+package DataStructure.stack;
+
+public class BalancedParenthises {
+
+	 public static boolean isValid(String s) {
+	    return true;    
+	  }
+	
+	public static void main(String[] args) {
+
+	}
+
+}

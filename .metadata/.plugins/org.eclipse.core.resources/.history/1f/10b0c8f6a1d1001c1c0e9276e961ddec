@@ -1,0 +1,18 @@
+package functionalInterfaces.predicate;
+
+class User{
+	String name;
+	String password;
+	
+	User(String username, String password){
+		
+	}
+}
+
+public class UserAuthenticationUsingPredicate {
+
+	public static void main(String[] args) {
+
+	}
+
+}

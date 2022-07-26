@@ -1,0 +1,25 @@
+package threads;
+
+class ThreadA extends Thread {
+	int total = 0;
+
+	public void run() {
+		synchronized (this) {
+			System.out.println("===child thread starts===============");
+			for (int i = 0; i <= 100; i++) {
+				total = total + i;
+			}
+
+			System.out.println("===child thread trying to give notificatioin===");
+			this.notify();
+		}
+	}
+}
+
+public class WaitNotifyThreadExample {
+
+	public static void main(String[] args) {
+
+	}
+
+}
